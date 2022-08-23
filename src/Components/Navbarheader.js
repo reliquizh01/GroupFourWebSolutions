@@ -12,8 +12,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Link from './Link';
+import Route from './Route';
 
-const pages = ['Home', 'Services', 'Developers', 'Contact Us'];
+const pages = ['home', 'services', 'developers', 'contact'];
 
 const NavbarHeader = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -83,8 +85,13 @@ const NavbarHeader = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem 
+                key={page} 
+                onClick={handleCloseNavMenu}
+                >
+                  <Link key={page} className={page} href={'/'+page}>
+                    <Typography textAlign="center">{page}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -113,13 +120,17 @@ const NavbarHeader = () => {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
+                <Link key={page} className={page} href={'/'+page}>
+                  <Button
+                    key={page}
+                    component="a"
+                    href={'/'+page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                    >
+                    {page}
+                  </Button>
+                </Link>
             ))}
           </Box>
 {/* END */}
