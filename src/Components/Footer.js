@@ -28,10 +28,10 @@ return (
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<FooterLink href="#">Jason Guardame</FooterLink>
+			<FooterLink href="#">Wenn Mark</FooterLink>
+			<FooterLink href="#">Jass</FooterLink>
+			<FooterLink href="#">Marvie</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
