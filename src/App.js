@@ -3,6 +3,8 @@ import './App.css';
 import Home from './Components/Home';
 import NavbarHeader from './Components/Navbarheader';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
+
 import {
   BrowserRouter,
   Routes,
@@ -20,7 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<p>Show Services Here</p>} />
           <Route path="/developers" element={<p>Show Developers Here</p>} />
-          <Route path="/contact-us" element={<p>Show Contacts Here</p>} />
+          <Route path="/contact" element={<Contact />} />
 
           {/* Insert Current Loaded Webpage here */}      
         </Routes>
