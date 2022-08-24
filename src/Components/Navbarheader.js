@@ -11,9 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
-import Link from './Link';
-import Route from './Route';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 const pages = ['home', 'services', 'developers', 'contact'];
 
@@ -35,8 +33,6 @@ const NavbarHeader = () => {
             <Typography
                 variant="h6"
                 noWrap
-                component="a"
-                href="/"
                 sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -89,9 +85,11 @@ const NavbarHeader = () => {
                 key={page} 
                 onClick={handleCloseNavMenu}
                 >
-                  <Link key={page} className={page} href={'/'+page}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </Link>
+                  <Typography textAlign="center">
+                    <Link style={{textDecoration: "none", color: "white"}} to={`/${page}`}>
+                      {page}
+                    </Link>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -102,8 +100,6 @@ const NavbarHeader = () => {
           <Typography
             variant="h5"
             noWrap
-            component="a"
-            href=""
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -120,17 +116,16 @@ const NavbarHeader = () => {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-                <Link key={page} className={page} href={'/'+page}>
                   <Button
                     key={page}
-                    component="a"
-                    href={'/'+page}
                     onClick={handleCloseNavMenu}
                     sx={{ my: 2, color: 'white', display: 'block' }}
                     >
-                    {page}
+                    <Link style={{textDecoration: "none", color: "white"}} to={`/${page}`}>
+                      {page}
+                    </Link>
+                    
                   </Button>
-                </Link>
             ))}
           </Box>
 {/* END */}

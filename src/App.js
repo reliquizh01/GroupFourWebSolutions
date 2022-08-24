@@ -1,26 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
 import NavbarHeader from './Components/Navbarheader';
 import Footer from './Components/Footer';
-import Route from './Components/Route';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 function App() {
   return (
     <div>
+      <BrowserRouter>
       <NavbarHeader />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/services" element={<p>Show Services Here</p>} />
+          <Route path="/developers" element={<p>Show Developers Here</p>} />
+          <Route path="/contact-us" element={<p>Show Contacts Here</p>} />
 
-      {/* <Route path="/">
-          <Accordion items={items} />
-      </Route>
-      
-      <Route path="/search">
-          <Search />
-      </Route>
-
-      <Route path="/gallery">
-          <Accordion items={items} />
-      </Route> */}
-      {/* Insert Current Loaded Webpage here */}
+          {/* Insert Current Loaded Webpage here */}      
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );
