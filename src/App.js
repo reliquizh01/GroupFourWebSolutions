@@ -23,8 +23,8 @@ function App() {
 
           {/* Insert Current Loaded Webpage here */}      
         </Routes>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
     </div>
   );
 }

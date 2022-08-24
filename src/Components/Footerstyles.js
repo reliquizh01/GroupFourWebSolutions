@@ -4,7 +4,6 @@ export const Box = styled.div`
 d-flex
 padding: 80px 60px;
 background: #05489e;
-position: absolute;
 bottom: 0;
 width: 100%;
 
