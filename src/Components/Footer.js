@@ -28,9 +28,9 @@ return (
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Jason Guardame</FooterLink>
-			<FooterLink href="#">Wenn Mark</FooterLink>
-			<FooterLink href="#">Jass</FooterLink>
+			<FooterLink href="https://reliquizh01.github.io/">Jason Guardame</FooterLink>
+			<FooterLink href="https://markustech.github.io/portfolio/">Wenn Mark</FooterLink>
+			<FooterLink href="https://portfolio-naimononedari.vercel.app/">Jass</FooterLink>
 			<FooterLink href="#">Marvie</FooterLink>
 		</Column>
 		<Column>
