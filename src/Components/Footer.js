@@ -31,7 +31,7 @@ return (
 			<FooterLink href="https://reliquizh01.github.io/">Jason Guardame</FooterLink>
 			<FooterLink href="https://markustech.github.io/portfolio/">Wenn Mark</FooterLink>
 			<FooterLink href="https://portfolio-naimononedari.vercel.app/">Jass</FooterLink>
-			<FooterLink href="#">Marvie</FooterLink>
+			<FooterLink href="https://github.com/MarvsAlquizar/2ndproj">Marvie</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
