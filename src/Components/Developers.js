@@ -88,11 +88,11 @@ const Developers = () => {
                         </Typography>
                         <Typography component="p" fontWeight='light' sx={{fontStyle: 'italic',
                         letterSpacing: -1}}>
-                            'Coding is my passion, and has always been a fun past time'
+                            "Programming is like sex one mistake and you will support it the rest of your life"
                         </Typography>
 
                         <Typography component="p" fontWeight='light'>
-                            <a style={{color:'red'}}>Loves:</a> Spending time reading books, playing dota 2, and being under the sunset beach
+                            <a style={{color:'red'}}>Loves:</a> playing dota, coding, eating, sleeping.
                         </Typography>
                         <Button href="https://markustech.github.io/portfolio/">
                             Porfolio
@@ -122,7 +122,7 @@ const Developers = () => {
                         </Typography>
 
                         <Typography component="p" fontWeight='light'>
-                            <a style={{color:'red'}}>Loves:</a> Spending time reading books, playing dota 2, and being under the sunset beach
+                            <a style={{color:'red'}}>Loves:</a> watching anime, playing online games, listening to Jpop
                         </Typography>
                         <Button href="https://markustech.github.io/portfolio/">
                             Porfolio
