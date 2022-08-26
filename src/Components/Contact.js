@@ -11,7 +11,7 @@ import {
 const Contact = () => {
   return (
     <div className='Contact'>
-        <Grid style={{marginTop: 50}}>
+        <Grid style={{marginTop: 50, marginBottom: 100}}>
             <Card style={{maxWidth: 750, padding: "20px 5px", margin: "0 auto"}}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" align="center">
