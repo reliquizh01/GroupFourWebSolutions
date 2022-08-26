@@ -64,7 +64,7 @@ const Developers = () => {
                         <Typography component="p" fontWeight='light'>
                             <a style={{color:'red'}}>Loves:</a> Spending time reading books, playing dota 2, and being under the sunset beach
                         </Typography>
-                        <Button href="https://reliquizh01.github.io/">
+                        <Button href="https://reliquizh01.github.io/" target="_blank">
                             Porfolio
                         </Button>
                     </Item>
@@ -94,7 +94,7 @@ const Developers = () => {
                         <Typography component="p" fontWeight='light'>
                             <a style={{color:'red'}}>Loves:</a> playing dota, coding, eating, sleeping.
                         </Typography>
-                        <Button href="https://markustech.github.io/portfolio/">
+                        <Button href="https://markustech.github.io/portfolio/" target="_blank">
                             Porfolio
                         </Button>
                     </Item>
@@ -118,13 +118,14 @@ const Developers = () => {
                         </Typography>
                         <Typography component="p" fontWeight='light' sx={{fontStyle: 'italic',
                         letterSpacing: -1}}>
-                            'Coding is my passion, and has always been a fun past time'
+                            'Fall seven times, get up eight.'
                         </Typography>
 
                         <Typography component="p" fontWeight='light'>
                             <a style={{color:'red'}}>Loves:</a> watching anime, playing online games, listening to Jpop
                         </Typography>
-                        <Button href="https://portfolio-naimononedari.vercel.app/">
+                        <Button href="https://portfolio-naimononedari.vercel.app/"
+                        target="_blank">
                             Porfolio
                         </Button>
                     </Item>
@@ -154,7 +155,7 @@ const Developers = () => {
                         <Typography component="p" fontWeight='light'>
                             <a style={{color:'red'}}>Loves:</a> Anime, manga, webnovel, novel, online games, foods, cats
                         </Typography>
-                        <Button href="https://marvsalquizar.github.io/2nd/Index1.html">
+                        <Button href="https://marvsalquizar.github.io/2nd/Index1.html" target="_blank">
                             Porfolio
                         </Button>
                     </Item>
