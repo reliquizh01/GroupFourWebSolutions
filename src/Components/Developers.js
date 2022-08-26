@@ -124,7 +124,7 @@ const Developers = () => {
                         <Typography component="p" fontWeight='light'>
                             <a style={{color:'red'}}>Loves:</a> watching anime, playing online games, listening to Jpop
                         </Typography>
-                        <Button href="https://markustech.github.io/portfolio/">
+                        <Button href="https://portfolio-naimononedari.vercel.app/">
                             Porfolio
                         </Button>
                     </Item>
